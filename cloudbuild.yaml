@@ -10,7 +10,7 @@ steps:
         'deploy',
         'your-cloud-run-service',
         '--image',
-        'gcr.io/your-project-id/your-image-name:your-tag',
+        'gcr.io/long-canto-398517/server',
         '--region',
         'us-central1',
         '--platform',
