@@ -16,9 +16,9 @@ steps:
         '--platform',
         'managed',
         '--allow-unauthenticated',
-        '--service-account',
         '--traffic',
         '{"revisionName":"my-service-00002-quk","percent":50}',
+        '--service-account',
         'serviceaccountcloudrun@long-canto-398517.iam.gserviceaccount.com',
       ]
 images:
