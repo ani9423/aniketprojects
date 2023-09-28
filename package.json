@@ -1,0 +1,23 @@
+{
+  "name": "aniketprojects",
+  "version": "1.0.0",
+  "description": "This repo is created for GCP learning by Patil, Aniket",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ani9423/aniketprojects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ani9423/aniketprojects/issues"
+  },
+  "homepage": "https://github.com/ani9423/aniketprojects#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
