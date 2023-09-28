@@ -16,6 +16,8 @@ steps:
         '--platform',
         'managed',
         '--allow-unauthenticated',
+        '--service-account',
+        'serviceaccountcloudrun@long-canto-398517.iam.gserviceaccount.com',
       ]
 images:
   - 'gcr.io/long-canto-398517/server'
