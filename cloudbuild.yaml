@@ -11,8 +11,11 @@ steps:
         'your-cloud-run-service',
         '--image',
         'gcr.io/your-project-id/your-image-name:your-tag',
+        '--region',
+        'us-central1',
         '--platform',
         'managed',
+        'allow-unauthenticated',
       ]
 images:
   - 'gcr.io/long-canto-398517/server'
