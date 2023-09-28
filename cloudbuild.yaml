@@ -15,7 +15,7 @@ steps:
         'us-central1',
         '--platform',
         'managed',
-        'allow-unauthenticated',
+        '--allow-unauthenticated',
       ]
 images:
   - 'gcr.io/long-canto-398517/server'
