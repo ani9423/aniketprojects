@@ -1,6 +1,6 @@
 # aniketprojects
 
-This repo is created for GCP learning by Patil, Aniket
+This repo was created for GCP learning by Patil, Aniket
 
 # cloud Run Link -
 
