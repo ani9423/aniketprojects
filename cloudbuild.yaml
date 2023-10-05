@@ -8,7 +8,7 @@ steps:
       [
         'run',
         'deploy',
-        'cloudRun2',
+        'cloudrunii',
         '--image',
         'gcr.io/long-canto-398517/server',
         '--region',
