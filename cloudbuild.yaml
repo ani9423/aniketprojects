@@ -8,7 +8,7 @@ steps:
       [
         'run',
         'deploy',
-        'your-cloud-run-service',
+        'cloudRun2',
         '--image',
         'gcr.io/long-canto-398517/server',
         '--region',
@@ -16,8 +16,6 @@ steps:
         '--platform',
         'managed',
         '--allow-unauthenticated',
-        '--traffic',
-        '{"revisionName":"my-service-00002-quk","percent":50}',
         '--service-account',
         'serviceaccountcloudrun@long-canto-398517.iam.gserviceaccount.com',
       ]
