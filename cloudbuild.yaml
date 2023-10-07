@@ -12,7 +12,7 @@ steps:
         '--image',
         'gcr.io/long-canto-398517/server',
         '--region',
-        'asia-south1',
+        'asia-south2',
         '--platform',
         'managed',
         '--allow-unauthenticated',
