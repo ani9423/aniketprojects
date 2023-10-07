@@ -8,11 +8,11 @@ steps:
       [
         'run',
         'deploy',
-        'cloudruniiv2',
+        'cloudruniiv3',
         '--image',
         'gcr.io/long-canto-398517/server',
         '--region',
-        'us-east1',
+        'asia-south1',
         '--platform',
         'managed',
         '--allow-unauthenticated',
